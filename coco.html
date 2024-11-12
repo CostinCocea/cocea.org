@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f0f4f8;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+        }
+
+        /* Card Container */
+        .card {
+            width: 350px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Name Styling */
+        .name {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #333;
+        }
+
+        /* Occupation Styling */
+        .occupation {
+            font-size: 1em;
+            color: #555;
+            margin: 8px 0;
+            font-weight: 400;
+        }
+
+        /* Education Styling */
+        .education {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: 300;
+        }
+
+        /* LinkedIn Link Styling */
+        .linkedin-link {
+            color: #007acc;
+            text-decoration: none;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            display: block;
+            transition: color 0.3s ease;
+        }
+
+        .linkedin-link:hover {
+            color: #005fa3;
+        }
+
+        /* Email Styling */
+        .contact-info {
+            font-size: 0.9em;
+            color: #333;
+            font-weight: 600; /* Bold text */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="name">Costin Iulian Cocea</div>
+    <div class="occupation">Entrepreneur</div>
+    <div class="education">Student at <strong>FABIZ</strong> & <strong>CSIE</strong></div>
+    <a href="https://www.linkedin.com/in/costin-cocea-96290a309/" target="_blank" class="linkedin-link">LinkedIn</a>
+    <div class="contact-info">costin@cocea.org</div>
+</div>
+
+</body>
+</html>
