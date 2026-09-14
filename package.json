@@ -1,0 +1,40 @@
+{
+  "name": "costin-cocea-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1 --directory out",
+    "lint": "eslint src",
+    "build:pages": "node scripts/build-pages.mjs"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "15.5.25",
+    "@tailwindcss/typography": "^0.5.16",
+    "framer-motion": "^12.7.4",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.494.0",
+    "next": "15.5.25",
+    "next-mdx-remote": "6.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remark-gfm": "^4.0.1",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.25",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^4"
+  },
+  "description": "Personal website of Costin Cocea",
+  "overrides": {
+    "postcss": "8.5.28",
+    "brace-expansion@1": "1.1.18"
+  }
+}
