@@ -6,19 +6,19 @@ export default function Hero() {
     <div className="hero-copy">
       <p className="research-intro">Recommendation systems, personalized LLM agents, and computational models of human behavior.</p>
       <ul className="intro-list">
-        <li><span aria-hidden="true">⚛️</span><span>research collaboration with Kazuki Kawamura</span></li>
-        <li><span aria-hidden="true">↗</span><span>modeling people and relationships from conversation data</span></li>
+        <li><span aria-hidden="true">⚛️</span><span>researching how personalized AI can understand people and help them connect</span></li>
+        <li><span aria-hidden="true">↗</span><span>independent research with Robin Dunbar @ Oxford</span></li>
         <li><span aria-hidden="true">🛠️</span><span>previously ML engineer @ INSPO, Tokyo</span></li>
       </ul>
       <section className="recent" aria-labelledby="recent-title">
         <h2 id="recent-title">working on:</h2>
         <ul className="arrow-list">
-          <li>personalized agents that learn social preferences through conversation</li>
-          <li>ranking and matching people from sparse pairwise scores</li>
-          <li>fine-tuning language models to predict human responses to interventions</li>
+          <li>personalized AI agents that learn people’s social preferences through conversation</li>
+          <li>ranking potential connections and matching people based on predicted compatibility</li>
+          <li>a field study testing whether feedback from real interactions improves compatibility predictions</li>
         </ul>
       </section>
-      <p className="highlights"><strong>studying:</strong> computer science & economics @ ASE Bucharest</p>
+      <p className="highlights"><strong>also:</strong> Silicon Valley Fellow · CS &amp; business @ ASE Bucharest</p>
       <div className="hero-actions"><Link href="/resume/" className="button button-outline">View Résumé</Link><Link href="/projects/" className="button button-solid">View Projects</Link></div>
       <Footer />
     </div>
