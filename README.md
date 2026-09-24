@@ -19,6 +19,10 @@ npm run dev
 
 Main content lives in `src/app/components/Hero.jsx` and `src/app/lib/profile.js`. Contact links are in `src/app/components/Footer.jsx`; styles are in `src/app/globals.css`.
 
+`public/proposal.pdf` is the user-supplied collaborative research proposal. It is available directly at `/proposal.pdf`, without a navigation link or download button. This is an unlisted public URL, not access-controlled storage. The PDF is copied unchanged and retains all author credits.
+
+The existing Geist font files are bundled in `src/app/fonts/`, so builds do not require a Google Fonts request.
+
 ## Publish an update
 
 ```sh

@@ -1,7 +1,7 @@
 import PageShell from '../components/PageShell';
 import WorkEntry from '../components/WorkEntry';
-import { experience, registry } from '../lib/profile';
-export const metadata = {title:'Projects',description:'Recommendation systems at INSPO, semantic search with The Registry, and engineering data analysis at BDMS. Work by Costin Cocea.'};
+import { projects } from '../lib/profile';
+export const metadata = {title:'Projects',description:'Personalized agents, user and relationship modeling, language-model fine-tuning, and semantic search. Projects by Costin Cocea.'};
 export default function Projects() {
-  return <PageShell title="projects" intro="A few things I’ve built, from personalized recommendations to search and data tools."><div className="work-list"><WorkEntry item={registry} /><WorkEntry item={experience[0]} /><WorkEntry item={experience[1]} /></div></PageShell>;
+  return <PageShell title="projects" intro="Personalized agents, models of human behavior, and the systems behind them."><div className="work-list">{projects.map(item=><WorkEntry key={item.name} item={item} />)}</div></PageShell>;
 }
