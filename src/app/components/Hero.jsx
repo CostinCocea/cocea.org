@@ -13,9 +13,7 @@ export default function Hero() {
       <section className="recent" aria-labelledby="recent-title">
         <h2 id="recent-title">working on:</h2>
         <ul className="arrow-list">
-          <li>personalized AI agents that learn people’s social preferences through conversation</li>
-          <li>ranking potential connections and matching people based on predicted compatibility</li>
-          <li>a field study testing whether feedback from real interactions improves compatibility predictions</li>
+          <li>Testing whether personalized AI agents can predict compatibility between people, and whether feedback from real interactions improves those predictions.</li>
         </ul>
       </section>
       <p className="highlights"><strong>also:</strong> Silicon Valley Fellow · CS &amp; business @ ASE Bucharest</p>
